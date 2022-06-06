@@ -1,0 +1,7 @@
+{
+    "companies":[
+        {"companyName":"Leapex","sector":"Technology"},
+        {"companyName":"Senit", "sector":"Transportation"},
+        {"companyName":"Blomstre", "sector":"Pharmacy"}
+    ]
+}

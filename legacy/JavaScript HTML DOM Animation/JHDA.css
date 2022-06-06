@@ -1,0 +1,12 @@
+#container{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: blueviolet;
+}
+#animus{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    background-color: chartreuse;
+}

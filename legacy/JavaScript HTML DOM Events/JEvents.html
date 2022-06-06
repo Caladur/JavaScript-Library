@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body onload="checkCookies()">
+
+    <h2 onclick="this.innerHTML = 'Değişmek Lazım' ">Tıklayın!</h2>
+    <h3 onclick="changeText(this)">Hmmm</h3>
+    <button onclick="displayDate()">Dene beni!</button>
+
+    <p id="demo"></p>
+
+    <button id="myBtn">Tıkla!</button>
+
+    <p id="demo2"></p>
+
+    <input type="text" id="name" onchange="upperCase()">
+
+    <br><br>
+
+    <div id="hoverDude" onmouseover="mOver(this)" onmouseout="mOut(this)"
+        style="height:30px;width:120px;background-color: blueviolet; padding: 30px;">Hover Over Here!
+    </div>
+
+    <br>
+
+    <div onmousedown="mDown(this)" onmouseup="mUp(this)" onclick="oClick(this)"
+        style="background-color: coral;height: 25px;width: 30px;padding: 20px;">Yes!
+    </div>
+
+
+    <script src="JEvents.js"></script>
+</body>
+
+</html>
